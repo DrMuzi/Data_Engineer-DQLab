@@ -5,6 +5,7 @@ Berisi materi belajar dari DQLab tentang Data Engineer. Bahasa pemprograman Phyt
 Berisi praktek Python menyelesaikan permasalah menggunakan ilmu data, soal sebagai berikut:
 
 Ekspedisi Pamanku
+
 Aku menyambar ponsel di meja dan membuka pesan singkat dari paman tempo hari yang menjelaskan jika paman harus mengeluarkan uang sebesar 1,5 juta per mobil dalam sehari. 
 Tapi, beliau selalu kebingungan total pengeluaran per bulan karena adanya aturan ganjil-genap yang membuat pengoperasian mobil yang berbeda.
 
@@ -14,6 +15,7 @@ Kalau seperti ini paman hanya perlu mengganti variabel jumlah_hari atau modifika
 ## Python-Beginner-Part2
 
 Harga Rumah di Tangerang
+
 “Terima kasih, Aksara! Akhirnya kelar juga pekerjaan kemarin. Masih semangat, kan? Belum kapok kalau ada proyek baru datang lagi? Hahaha,” goda Senja.
 “Asalkan ada bonus, maju terus,” candaku.
 “Oke, kali ini serius. Kita diminta untuk mengembangkan model prediksi harga rumah di di Tangerang berdasarkan luas tanah, luas bangunan serta kedekatan lokasi dengan pusat kota. Untuk mengembangkan model prediksi ini, saya telah mengumpulkan beberapa data yang diperlukan. Coba kamu lihat,” jelas Senja.
@@ -67,6 +69,7 @@ Hitunglah prediksi harga dari variabel data tersebut.
 ## Python-Beginner-Part3
 
 Studi Kasus dari Senja
+
 Di perusahaan ini, seorang analis data yang masuk umumnya berusia 21, memiliki pendapatan senilai 6.500.000 dan insentif lembur senilai 100.000. Kemudian, untuk seorang ilmuwan data yang masuk umumnya berusia 25, memiliki pendapatan senilai 12.000.000, dan insentif lembur senilai 150.000. Di sisi lain, untuk tenaga lepas, hanya terdapat pendapatan umum senilai 4000000 untuk pembersih data dan 2500000 untuk dokumenter teknis. 
 
 Berikut adalah data perusahaan beserta detail karyawan yang bekerja.
