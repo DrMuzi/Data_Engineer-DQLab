@@ -90,6 +90,7 @@ Cetak total pengeluaran yang dimiliki perusahaan untuk menguji fungsionalitas ko
 
 # Case_Studi-Data_Quality-Python
 Case Studi: Data Profiling
+
 Dear Aksara, 
 
 Tolong proses dataset terlampir yang  disimpan dalam bentuk csv bernama 'https://storage.googleapis.com/dqlab-dataset/uncleaned_raw.csv'.
@@ -103,11 +104,13 @@ Mengisi missing value tersebut dengan mean dari kolom tersebut!
 Setelah membaca email tersebut, aku pun memulai kode programnya di code editor.
 
 Case Study: Data Cleansing - Part 1
+
 Untuk memprosesnya bisa dilakukan dengan cara berikut:
 
 Mengetahui kolom yang memiliki outliers! Gunakan visualisasi dengan boxplot pada dataframe `uncleaned_raw`.
 
 Case Study: Data Cleansing - Part 2
+
 Langkah selanjutnya bisa dilakukan dengan cara berikut:
 
 Melakukan proses removing outliers pada kolom `UnitPrice`.
