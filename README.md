@@ -88,15 +88,27 @@ Tugas:
 Simulasikan dengan program yang telah dibuat.
 Cetak total pengeluaran yang dimiliki perusahaan untuk menguji fungsionalitas konsep dan teknik polymorphism yang diterapkan.
 
-# Case Studi: Data Profiling
+# Case_Studi-Data_Quality-Python
+Case Studi: Data Profiling
 Dear Aksara, 
 
 Tolong proses dataset terlampir yang  disimpan dalam bentuk csv bernama 'https://storage.googleapis.com/dqlab-dataset/uncleaned_raw.csv'.
 
 Kamu bisa memprosesnya dengan cara berikut:
 
-Import dataset csv ke variable bernama uncleaned_raw
-Inspeksi dataframe uncleaned_raw
+Import dataset csv ke variable bernama `uncleaned_raw`
+Inspeksi dataframe `uncleaned_raw`
 Check kolom yang mengandung missing value, jika ada, kolom apakah itu dan berapa persen missing value pada kolom tersebut?
 Mengisi missing value tersebut dengan mean dari kolom tersebut!
 Setelah membaca email tersebut, aku pun memulai kode programnya di code editor.
+
+Case Study: Data Cleansing - Part 1
+Untuk memprosesnya bisa dilakukan dengan cara berikut:
+
+Mengetahui kolom yang memiliki outliers! Gunakan visualisasi dengan boxplot pada dataframe `uncleaned_raw`.
+
+Case Study: Data Cleansing - Part 2
+Langkah selanjutnya bisa dilakukan dengan cara berikut:
+
+Melakukan proses removing outliers pada kolom `UnitPrice`.
+Checking duplikasi and melakukan deduplikasi dataset tersebut!
