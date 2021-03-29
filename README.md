@@ -63,3 +63,27 @@ Gunakan variabel data untuk memprediksi harga rumah
 `data = {'tanah': 110, 'bangunan': 80, 'jarak_ke_pusat': 35}`
 transformasikan data tersebut dengan dengan menggunakan `attr_info` yang telah diperoleh yang kembali disimpan ke variabel data.
 Hitunglah prediksi harga dari variabel data tersebut. 
+
+## Python-Beginner-Part3
+
+Studi Kasus dari Senja
+Di perusahaan ini, seorang analis data yang masuk umumnya berusia 21, memiliki pendapatan senilai 6.500.000 dan insentif lembur senilai 100.000. Kemudian, untuk seorang ilmuwan data yang masuk umumnya berusia 25, memiliki pendapatan senilai 12.000.000, dan insentif lembur senilai 150.000. Di sisi lain, untuk tenaga lepas, hanya terdapat pendapatan umum senilai 4000000 untuk pembersih data dan 2500000 untuk dokumenter teknis. 
+
+Berikut adalah data perusahaan beserta detail karyawan yang bekerja.
+
+Nama Perusahaan: ABC
+
+Alamat                  : Jl. Jendral Sudirman, Blok 11
+
+Telepon                 : (021) 95812XX
+
+![p3-1](https://user-images.githubusercontent.com/48518663/112791010-cc281e80-908a-11eb-8d1f-2ca8bda60ae0.png)
+
+
+Note: saat usia/pendapatan kosong maka usia/pendapatan mengikuti standar perusahaan.
+
+“Dengan kasus ini, berarti di akhir aku harus mencetak total pengeluaran perusahaan untuk menguji kelancaranku dalam menerapkan OOP dengan Python nih,” gumamku sambil berkutat pada baris-baris code di code editor.
+
+Tugas:
+Simulasikan dengan program yang telah dibuat.
+Cetak total pengeluaran yang dimiliki perusahaan untuk menguji fungsionalitas konsep dan teknik polymorphism yang diterapkan.
