@@ -87,3 +87,16 @@ Note: saat usia/pendapatan kosong maka usia/pendapatan mengikuti standar perusah
 Tugas:
 Simulasikan dengan program yang telah dibuat.
 Cetak total pengeluaran yang dimiliki perusahaan untuk menguji fungsionalitas konsep dan teknik polymorphism yang diterapkan.
+
+# Case Studi: Data Profiling
+Dear Aksara, 
+
+Tolong proses dataset terlampir yang  disimpan dalam bentuk csv bernama 'https://storage.googleapis.com/dqlab-dataset/uncleaned_raw.csv'.
+
+Kamu bisa memprosesnya dengan cara berikut:
+
+Import dataset csv ke variable bernama uncleaned_raw
+Inspeksi dataframe uncleaned_raw
+Check kolom yang mengandung missing value, jika ada, kolom apakah itu dan berapa persen missing value pada kolom tersebut?
+Mengisi missing value tersebut dengan mean dari kolom tersebut!
+Setelah membaca email tersebut, aku pun memulai kode programnya di code editor.
