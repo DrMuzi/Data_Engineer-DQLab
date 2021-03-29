@@ -91,8 +91,8 @@ Tugas:
 Simulasikan dengan program yang telah dibuat.
 Cetak total pengeluaran yang dimiliki perusahaan untuk menguji fungsionalitas konsep dan teknik polymorphism yang diterapkan.
 
-# Case_Studi-Data_Quality-Python
-Case Studi: Data Profiling
+# Case_Study-Data_Quality-Python
+Case Study: Data Profiling
 
 Dear Aksara, 
 
