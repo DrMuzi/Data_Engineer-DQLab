@@ -160,3 +160,124 @@ Preview akhir data:
 
 ![pd-1](https://user-images.githubusercontent.com/48518663/112792241-4c4f8380-908d-11eb-8886-3eb7fbe9a86c.png)
 
+# Data_Manipulation-Pandas-Part2
+
+Performa Penjualan di Setiap Cabang
+
+Diberikan 4 csv files yang isinya retail data untuk tiap Quarter:
+
+csv (data dari bulan January - March)       --> https://storage.googleapis.com/dqlab-dataset/LO4/retail_data_from_1_until_3.csv
+
+csv (data dari bulan April - June)              --> https://storage.googleapis.com/dqlab-dataset/LO4/retail_data_from_4_until_6.csv
+
+csv (data dari bulan July - September)      --> https://storage.googleapis.com/dqlab-dataset/LO4/retail_data_from_7_until_9.csv
+
+csv (data dari bulan October - December)  --> https://storage.googleapis.com/dqlab-dataset/LO4/retail_data_from_10_until_12.csv
+ 
+
+Goal: Automation untuk pembuatan grafik dari measurement yang dibutuhkan.
+
+ 
+
+Untuk part 1 ini yang perlu dilakukan:
+
+[1]. Load masing-masing data *.csv dengan Pandas
+
+[2]. Pengecekan dan Transformasi Data 
+
+Cek data sekilas (melihat bentuk data biasanya 5 data teratas)
+
+Cek list kolom untuk semua dataframe apakah seluruh kolom dari keempat dataframe yang terpisah itu sama
+
+Jika sama digabungkan.
+
+Cek informasi dataframe yang telah digabungkan
+
+Statistik deskriptif dari dataframe yang telah digabungkan.
+
+Untuk representasi string gunakan kutip satu, misalnya: 'contoh string'.
+
+Melanjutkan penyelesaian persoalan ke langkah berikutnya
+
+[3] Transformasi Data 
+
+Jika ada data yang tidak seharusnya maka dapat dibuang
+Jika ada kolom yang seharusnya bertipe datetime64 ubahlah
+Cek kembali informasi dataframe 
+Tampilkan kembali statistik deskriptif dari dataframe
+Untuk representasi string gunakan kutip satu, misalnya: 'contoh string'.
+
+ 
+
+Sebagai kontrol, informasi terakhir (baris 22) berikut dengan statistik deskriptif (baris 24) adalah:
+
+![pd-2](https://user-images.githubusercontent.com/48518663/112793065-cf250e00-908e-11eb-9649-c126e525a583.png)
+
+![pd-3](https://user-images.githubusercontent.com/48518663/112793091-d8ae7600-908e-11eb-8e64-ccb74282e687.png)
+
+Mari lanjutkan ke langkah berikutnya
+
+[4]. Filter province yang hanya termasuk 5 provinsi besar di Jawa (DKI Jakarta, Jawa Barat, Jawa Tengah, Jawa Timur, dan Yogyakarta)
+
+[5]. Mengelompokkan data berdasarkan order_date dan province yang sudah difilter dan menghitung order unique count, customer unique count, product unique count, brand unique count, dan GMV (Gross Merchandise Volume = total_price untuk semua penjualan)
+
+[6]. Melakukan unstack untuk mendapatkan order_date di bagian baris dan province di bagian column
+
+ 
+
+Untuk string direpresentasikan dengan kutip satu, misalnya 'contoh string'.
+
+ 
+
+Sebagai kontrol, bahwa output langkah ke [5]
+
+![pd-4](https://user-images.githubusercontent.com/48518663/112793156-f8de3500-908e-11eb-9482-16a1e69f1eaa.png)
+
+
+dan output langkah [6] 
+
+![pd-5](https://user-images.githubusercontent.com/48518663/112793184-04c9f700-908f-11eb-8eb2-c5ac8481e002.png)
+
+Ayo lanjutkan ke langkah berikutnya:
+
+[7]. Slicing data untuk masing-masing measurement (kolom), misal: kolom order
+
+[8]. Lakukan resampling pada data tersebut untuk dilakukan perhitungan secara bulanan
+
+ 
+
+Untuk string direpresentasikan dengan kutip satu, misalnya 'contoh string'.
+
+Sekarang dilanjutkan untuk langkah #[9] yaitu menampilkan grafik dari langkah #[8] yang telah dilakukan.
+
+[9]. Plot untuk hasil pada langkah #[8]
+
+Untuk string direpresentasikan dengan kutip satu, misalnya 'contoh string'.
+
+ 
+
+Output untuk langkah [9]
+
+![pd-6](https://user-images.githubusercontent.com/48518663/112793232-1ca17b00-908f-11eb-8d62-239a3a869cd0.png)
+
+Dapat dilihat bahwa avg order size untuk DKI Jakarta tertinggi dan terus memiliki kenaikan, disusul oleh Jawa Barat dan kemudian 3 sisanya hampir berada dalam angka yang rata-rata sama
+
+Langah 7 s/d 9 yang telah dilakukan baru untuk satu measurement yaitu order. Berarti ada empat kali lagi kode seperti ini harus dibuat. Karena struktur code masih sama, dapat menggunakan perulangan sesuai dengan jumlah measurement yaitu 5, sehingga kelima measurement dapat ditampilkan grafiknya dalam satu canvas figure.
+
+Mari memulai dengan membuat sebuah perulangan dengan dataframe unstack_city_province yang digunakan (hasil dari langkah ke 5 di part 2).
+
+ 
+
+Visualisasi yang diharapkan adalah:
+
+![pd-7](https://user-images.githubusercontent.com/48518663/112793336-53779100-908f-11eb-98c8-5af52d556a0f.png)
+
+
+
+
+
+
+
+
+
+
